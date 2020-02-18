@@ -15,7 +15,7 @@ int main() {
   c2->setLength( 10 );
 
   delete c2;
-  delete c1;  // !!
+  //delete c1;  // !!
 
   return 0;
 }

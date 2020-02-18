@@ -15,7 +15,7 @@ int main() {
   *p = 42;
   (*c).setLength(4);
 
-  delete c;  //c = nullptr;
-  delete p;  //p = nullptr;
+  delete c;  c = nullptr;
+  delete p;  p = nullptr;
   return 0;
 }

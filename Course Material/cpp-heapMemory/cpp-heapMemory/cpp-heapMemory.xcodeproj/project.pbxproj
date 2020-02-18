@@ -46,7 +46,7 @@
 
 /* Begin PBXFileReference section */
 		A67C470423FC84BB009E5DE6 /* cpp-heapMemory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-heapMemory"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A67C470E23FC84F2009E5DE6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A67C470E23FC84F2009E5DE6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; usesTabs = 1; };
 		A67C471423FC853B009E5DE6 /* heap1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = heap1; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67C471F23FC854D009E5DE6 /* heap2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = heap2; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67C472623FC8578009E5DE6 /* heap1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heap1.cpp; sourceTree = "<group>"; };
