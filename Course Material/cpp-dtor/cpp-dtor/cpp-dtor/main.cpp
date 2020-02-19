@@ -6,6 +6,8 @@
  */
 
 #include "Cube.h"
+#include <iostream>
+
 using uiuc::Cube;
 
 double cube_on_stack() {
@@ -23,5 +25,9 @@ int main() {
     cube_on_stack();
     cube_on_heap();
     cube_on_stack();
+    int *a;
+    a = new int(50);
+    std::cout << *a << std::endl;
+    delete a;
     return 0;
 }
