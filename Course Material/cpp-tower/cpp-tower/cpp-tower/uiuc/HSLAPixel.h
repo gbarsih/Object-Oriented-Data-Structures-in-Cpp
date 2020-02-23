@@ -16,8 +16,6 @@ namespace uiuc {
     //static uiuc::HSLAPixel ILLINI_ORANGE;
     //static uiuc::HSLAPixel ILLINI_BLUE;
 
-
-
     double h; /**< Hue of the pixel, in degrees [0, 360). */
     double s; /**< Saturation of the pixel, [0, 1]. */
     double l; /**< Luminance of the pixel, [0, 1]. */
@@ -52,9 +50,6 @@ namespace uiuc {
      * @param alpha Alpha value for the new pixel, [0, 1].
      */
     HSLAPixel(double hue, double saturation, double luminance, double alpha);
-
-
-
 
     static HSLAPixel BLUE;
     static HSLAPixel ORANGE;
