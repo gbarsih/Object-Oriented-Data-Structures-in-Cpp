@@ -36,7 +36,7 @@ Cube & Stack::peekTop() {
 }
 
 unsigned Stack::size() const {
-  return cubes_.size();
+  return (unsigned int) cubes_.size();
 }
 
 std::ostream& operator<<(std::ostream & os, const Stack & stack) {
