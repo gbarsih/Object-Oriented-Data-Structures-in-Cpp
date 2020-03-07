@@ -18,49 +18,31 @@ using std::endl;
 // (Feel free to call "helper functions" to help you solve the puzzle.)
 void Game::solve() {
   // Prints out the state of the game:
-    cout << *this << endl;
-    
-    //hardcoded solution
-    /*
-    stacks_[1].push_back(stacks_[0].removeTop());
-    stacks_[2].push_back(stacks_[0].removeTop());
-    stacks_[2].push_back(stacks_[1].removeTop());
-    stacks_[1].push_back(stacks_[0].removeTop());
-    stacks_[0].push_back(stacks_[2].removeTop());
-    stacks_[1].push_back(stacks_[2].removeTop());
-    stacks_[1].push_back(stacks_[0].removeTop());
-    stacks_[2].push_back(stacks_[0].removeTop());
-    stacks_[2].push_back(stacks_[1].removeTop());
-    stacks_[0].push_back(stacks_[1].removeTop());
-    stacks_[0].push_back(stacks_[2].removeTop());
-    stacks_[2].push_back(stacks_[1].removeTop());
-    stacks_[1].push_back(stacks_[0].removeTop());
-    stacks_[2].push_back(stacks_[0].removeTop());
-    move(1, 2);*/
     
     int n = stacks_[0].size(); //number of disks
     int source = 0;
     int target = 2;
     int aux = 1;
-    move_n(n, source, target, aux);
+    _move_n(n, source, target, aux);
     
 }
 
-void Game::move_n(int n, int source, int target, int auxiliary) {
+void Game::_move_n(int n, int source, int target, int auxiliary) {
     if (n == 1) { //if only moving one disk, move it and return
-        move(source, target);
+        _move(source, target);
         return;
     }
     // If more than one disk, move n-1 disks to the auxiliary rod
-    move_n(n - 1, source, auxiliary, target);
+    _move_n(n - 1, source, auxiliary, target);
     // then move the last disk to the target
-    move(source, target);
+    _move(source, target);
     // then move everything from the auxiliary to the target using source as auxiliary
-    move_n(n - 1, auxiliary, target, source);
+   _move_n(n - 1, auxiliary, target, source);
+    cout << *this << endl;
     return;
 }
 
-void Game::move(int src, int dst) {
+void Game::_move(int src, int dst) {
     assert(src <= (stacks_.size() - 1));
     assert(dst <= (stacks_.size() - 1));
     stacks_[dst].push_back(stacks_[src].removeTop());
