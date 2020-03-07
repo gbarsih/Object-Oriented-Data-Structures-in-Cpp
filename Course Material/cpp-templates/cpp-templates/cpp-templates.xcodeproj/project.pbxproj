@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6126AA22414430B00EA6821 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6126AA12414430B00EA6821 /* main.cpp */; };
-		A6126AAD2414434F00EA6821 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6126AA92414434F00EA6821 /* Stack.cpp */; };
-		A6126AAE2414434F00EA6821 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6126AAB2414434F00EA6821 /* Game.cpp */; };
-		A6126AB32414435E00EA6821 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6126AB02414435E00EA6821 /* Cube.cpp */; };
-		A6126AB42414435E00EA6821 /* HSLAPixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6126AB22414435E00EA6821 /* HSLAPixel.cpp */; };
+		A6126AC22414464900EA6821 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6126AC12414464900EA6821 /* main.cpp */; };
+		A6126ACA2414466400EA6821 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6126AC92414466400EA6821 /* Cube.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A6126A9C2414430B00EA6821 /* CopyFiles */ = {
+		A6126ABC2414464900EA6821 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,20 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A6126A9E2414430B00EA6821 /* cpp-tower-solution2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-tower-solution2"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6126AA12414430B00EA6821 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		A6126AA92414434F00EA6821 /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
-		A6126AAA2414434F00EA6821 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
-		A6126AAB2414434F00EA6821 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
-		A6126AAC2414434F00EA6821 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
-		A6126AAF2414435E00EA6821 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cube.h; path = uiuc/Cube.h; sourceTree = "<group>"; };
-		A6126AB02414435E00EA6821 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Cube.cpp; path = uiuc/Cube.cpp; sourceTree = "<group>"; };
-		A6126AB12414435E00EA6821 /* HSLAPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSLAPixel.h; path = uiuc/HSLAPixel.h; sourceTree = "<group>"; };
-		A6126AB22414435E00EA6821 /* HSLAPixel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HSLAPixel.cpp; path = uiuc/HSLAPixel.cpp; sourceTree = "<group>"; };
+		A6126ABE2414464900EA6821 /* cpp-templates */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-templates"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6126AC12414464900EA6821 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6126AC82414466400EA6821 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		A6126AC92414466400EA6821 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A6126A9B2414430B00EA6821 /* Frameworks */ = {
+		A6126ABB2414464900EA6821 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,81 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6126A952414430A00EA6821 = {
+		A6126AB52414464900EA6821 = {
 			isa = PBXGroup;
 			children = (
-				A6126AA02414430B00EA6821 /* cpp-tower-solution2 */,
-				A6126A9F2414430B00EA6821 /* Products */,
+				A6126AC02414464900EA6821 /* cpp-templates */,
+				A6126ABF2414464900EA6821 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A6126A9F2414430B00EA6821 /* Products */ = {
+		A6126ABF2414464900EA6821 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A6126A9E2414430B00EA6821 /* cpp-tower-solution2 */,
+				A6126ABE2414464900EA6821 /* cpp-templates */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A6126AA02414430B00EA6821 /* cpp-tower-solution2 */ = {
+		A6126AC02414464900EA6821 /* cpp-templates */ = {
 			isa = PBXGroup;
 			children = (
-				A6126AA12414430B00EA6821 /* main.cpp */,
-				A6126AAB2414434F00EA6821 /* Game.cpp */,
-				A6126AAC2414434F00EA6821 /* Game.h */,
-				A6126AA92414434F00EA6821 /* Stack.cpp */,
-				A6126AAA2414434F00EA6821 /* Stack.h */,
-				A6126AA82414433C00EA6821 /* uiuc */,
+				A6126AC92414466400EA6821 /* Cube.cpp */,
+				A6126AC82414466400EA6821 /* Cube.h */,
+				A6126AC12414464900EA6821 /* main.cpp */,
 			);
-			path = "cpp-tower-solution2";
-			sourceTree = "<group>";
-		};
-		A6126AA82414433C00EA6821 /* uiuc */ = {
-			isa = PBXGroup;
-			children = (
-				A6126AB02414435E00EA6821 /* Cube.cpp */,
-				A6126AAF2414435E00EA6821 /* Cube.h */,
-				A6126AB22414435E00EA6821 /* HSLAPixel.cpp */,
-				A6126AB12414435E00EA6821 /* HSLAPixel.h */,
-			);
-			name = uiuc;
+			path = "cpp-templates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A6126A9D2414430B00EA6821 /* cpp-tower-solution2 */ = {
+		A6126ABD2414464900EA6821 /* cpp-templates */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A6126AA52414430B00EA6821 /* Build configuration list for PBXNativeTarget "cpp-tower-solution2" */;
+			buildConfigurationList = A6126AC52414464900EA6821 /* Build configuration list for PBXNativeTarget "cpp-templates" */;
 			buildPhases = (
-				A6126A9A2414430B00EA6821 /* Sources */,
-				A6126A9B2414430B00EA6821 /* Frameworks */,
-				A6126A9C2414430B00EA6821 /* CopyFiles */,
+				A6126ABA2414464900EA6821 /* Sources */,
+				A6126ABB2414464900EA6821 /* Frameworks */,
+				A6126ABC2414464900EA6821 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "cpp-tower-solution2";
-			productName = "cpp-tower-solution2";
-			productReference = A6126A9E2414430B00EA6821 /* cpp-tower-solution2 */;
+			name = "cpp-templates";
+			productName = "cpp-templates";
+			productReference = A6126ABE2414464900EA6821 /* cpp-templates */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A6126A962414430A00EA6821 /* Project object */ = {
+		A6126AB62414464900EA6821 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Gabriel Barsi Haberfeld";
 				TargetAttributes = {
-					A6126A9D2414430B00EA6821 = {
+					A6126ABD2414464900EA6821 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = A6126A992414430A00EA6821 /* Build configuration list for PBXProject "cpp-tower-solution2" */;
+			buildConfigurationList = A6126AB92414464900EA6821 /* Build configuration list for PBXProject "cpp-templates" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,33 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = A6126A952414430A00EA6821;
-			productRefGroup = A6126A9F2414430B00EA6821 /* Products */;
+			mainGroup = A6126AB52414464900EA6821;
+			productRefGroup = A6126ABF2414464900EA6821 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A6126A9D2414430B00EA6821 /* cpp-tower-solution2 */,
+				A6126ABD2414464900EA6821 /* cpp-templates */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A6126A9A2414430B00EA6821 /* Sources */ = {
+		A6126ABA2414464900EA6821 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6126AB32414435E00EA6821 /* Cube.cpp in Sources */,
-				A6126AAE2414434F00EA6821 /* Game.cpp in Sources */,
-				A6126AAD2414434F00EA6821 /* Stack.cpp in Sources */,
-				A6126AB42414435E00EA6821 /* HSLAPixel.cpp in Sources */,
-				A6126AA22414430B00EA6821 /* main.cpp in Sources */,
+				A6126ACA2414466400EA6821 /* Cube.cpp in Sources */,
+				A6126AC22414464900EA6821 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A6126AA32414430B00EA6821 /* Debug */ = {
+		A6126AC32414464900EA6821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		A6126AA42414430B00EA6821 /* Release */ = {
+		A6126AC42414464900EA6821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,7 +241,7 @@
 			};
 			name = Release;
 		};
-		A6126AA62414430B00EA6821 /* Debug */ = {
+		A6126AC62414464900EA6821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -275,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		A6126AA72414430B00EA6821 /* Release */ = {
+		A6126AC72414464900EA6821 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -286,25 +260,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A6126A992414430A00EA6821 /* Build configuration list for PBXProject "cpp-tower-solution2" */ = {
+		A6126AB92414464900EA6821 /* Build configuration list for PBXProject "cpp-templates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6126AA32414430B00EA6821 /* Debug */,
-				A6126AA42414430B00EA6821 /* Release */,
+				A6126AC32414464900EA6821 /* Debug */,
+				A6126AC42414464900EA6821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A6126AA52414430B00EA6821 /* Build configuration list for PBXNativeTarget "cpp-tower-solution2" */ = {
+		A6126AC52414464900EA6821 /* Build configuration list for PBXNativeTarget "cpp-templates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6126AA62414430B00EA6821 /* Debug */,
-				A6126AA72414430B00EA6821 /* Release */,
+				A6126AC62414464900EA6821 /* Debug */,
+				A6126AC72414464900EA6821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A6126A962414430A00EA6821 /* Project object */;
+	rootObject = A6126AB62414464900EA6821 /* Project object */;
 }

@@ -64,11 +64,11 @@ void Game::_move(
 
 void Game::solve() {
   _move(
-    0, stacks_[0].size() - 1,  //< Move the entire set of cubes, [0 .. size-1]
-    stacks_[0], //< Source stack is [0]
-    stacks_[2], //< Target stack is [2]
-    stacks_[1], //< Spare stack is [1]
-    0   //< Initial depth (for printouts only) is 0
+    0, stacks_[0].size() - 1,  // Move the entire set of cubes, [0 .. size-1]
+    stacks_[0], // Source stack is [0]
+    stacks_[2], // Target stack is [2]
+    stacks_[1], // Spare stack is [1]
+    0   // Initial depth (for printouts only) is 0
   );
 }
 
