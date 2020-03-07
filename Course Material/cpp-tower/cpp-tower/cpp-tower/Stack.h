@@ -13,9 +13,9 @@ using uiuc::Cube;
 
 class Stack {
   public:
-    void push_back(const Cube & cube);
-    Cube removeTop();
-    Cube & peekTop();
+    void push_back(const Cube & cube);  //puts addressed cube at the top of the stack
+    Cube removeTop();   //removes top cube from a stack and returns the cube object
+    Cube & peekTop();   //returns address of the cube at the top of the stack
     unsigned size() const;
 
     // An overloaded operator<<, allowing us to print the stack via `cout<<`:

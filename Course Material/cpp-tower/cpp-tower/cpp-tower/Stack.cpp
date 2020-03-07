@@ -32,11 +32,11 @@ Cube Stack::removeTop() {
 }
 
 Cube & Stack::peekTop() {
-  return cubes_[cubes_.size() - 1];
+    return cubes_[cubes_.size() - 1];
 }
 
 unsigned Stack::size() const {
-  return cubes_.size();
+  return (signed int) cubes_.size();
 }
 
 std::ostream& operator<<(std::ostream & os, const Stack & stack) {
