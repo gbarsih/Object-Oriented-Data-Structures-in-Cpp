@@ -23,7 +23,10 @@ namespace uiuc {
 
       // An overloaded operator<<, allowing us to print the Cube via `cout<<`:
       friend std::ostream& operator<<(std::ostream & os, const Cube & cube);
-
+      friend bool operator<(const Cube & cube1, const Cube & cube2);
+      friend bool operator<=(const Cube & cube1, const Cube & cube2);
+      friend bool operator>(const Cube & cube1, const Cube & cube2);
+      friend bool operator>=(const Cube & cube1, const Cube & cube2);
     private:
       double length_;
   };
